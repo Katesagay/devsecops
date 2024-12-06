@@ -1,0 +1,6 @@
+git config user.name "Kate Sagay"
+git config user.email "kate_sagay@hotmail.com"
+ssh-keygen -t rsa -b 4096 -C "kate_sagay@hotmail.com"
+ssh-keygen -t rsa -b 4096 -C "kate_sagay@hotmail.com" -f ~/.ssh/id_rsa_personal
+ssh-keygen -t rsa -b 4096 -C "kate.sagay@asos.com" -f ~/.ssh/id_rsa_work
+git remote set-url origin git@github.com:asosteam/asos-mule-pipelines.git
